@@ -1,68 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HODE | Professional Senior Care Ohio</title>
-    <style>
-        :root {
-            --primary-rust: #b35a44;
-            --secondary-teal: #4a7c7d;
-            --warm-bg: #fdf5e6;
-            --dark-text: #2d1e1b;
-        }
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background-color: var(--warm-bg); color: var(--dark-text); line-height: 1.6; }
-        
-        /* Navigation & Header */
-        header { background: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-        .logo { font-size: 1.8rem; font-weight: bold; color: var(--primary-rust); text-decoration: none; }
-        nav a { margin-left: 20px; text-decoration: none; color: var(--dark-text); font-weight: bold; font-size: 0.9rem; }
-        
-        /* Trust Bar for DNP/MBA Credentials */
-        .trust-bar { background: var(--secondary-teal); color: white; text-align: center; padding: 12px; font-weight: bold; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; }
-        
-        /* Hero Section */
-        .hero { display: flex; align-items: center; padding: 60px 5%; gap: 50px; flex-wrap: wrap; background: white; }
-        .hero-content { flex: 1.2; min-width: 300px; }
-        .hero-content h1 { font-size: 2.8rem; color: var(--secondary-teal); line-height: 1.1; margin-bottom: 20px; }
-        .hero-content p { font-size: 1.1rem; margin-bottom: 25px; color: #444; }
-        
-        /* The Image Styling */
-        .hero-image { flex: 1; min-width: 300px; }
-        .hero-image img { width: 100%; border-radius: 20px; box-shadow: 15px 15px 0 var(--warm-bg); object-fit: cover; height: 400px; }
-        
-        .btn-main { background: var(--primary-rust); color: white; padding: 15px 35px; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: bold; transition: 0.3s; }
-        .btn-main:hover { opacity: 0.9; transform: translateY(-2px); }
-        
-        footer { text-align: center; padding: 40px; background: #2d1e1b; color: white; margin-top: 50px; }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HODE | Home Care</title>
+  <meta name="description" content="HODE provides dependable in-home care rooted in hope, dignity, and empowerment." />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">HODE</a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">Our Story</a>
-            <a href="faq.html">FAQs</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="trust-bar">DNP & MBA LED CLINICAL OVERSIGHT — SERVING OHIO FAMILIES</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="HODE Home">
+        <img class="logo" src="assets/logo.jpg" alt="HODE logo" />
+        <div class="brand-text">
+          <div class="brand-name">HODE</div>
+          <div class="brand-tag">Hope • Outreach • Dignity • Empowerment</div>
+        </div>
+      </a>
 
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
     <section class="hero">
-        <div class="hero-content">
-            <h1>Care from the Core of Our Family to Yours.</h1>
-            <p>HODE provides elite senior home care in Ohio. Founded by sisters—a DNP-prepared Nurse Practitioner and a dedicated advocate—we treat your family with the dignity they deserve.</p>
-            <a href="about.html" class="btn-main">Learn Our Story</a>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Compassionate home care rooted in hope and dignity.</h1>
+          <p>
+            HODE provides dependable in-home support for individuals and families who need care at home.
+            We start by listening, then build a plan that fits your routine and goals.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="contact.html">Request a Care Consultation</a>
+            <a class="btn" href="contact.html#call">Call Now</a>
+          </div>
+
+          <div class="trust-row" role="list">
+            <div class="trust-item" role="listitem">Family-founded</div>
+            <div class="trust-item" role="listitem">Healthcare-led</div>
+            <div class="trust-item" role="listitem">Community-focused</div>
+          </div>
         </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1000&auto=format&fit=crop" alt="African American professional providing care to a senior">
+
+        <div class="hero-card" aria-label="Quick details">
+          <h2>How we help</h2>
+          <ul class="checklist">
+            <li>In-home support for daily routines</li>
+            <li>Short-term recovery support</li>
+            <li>Long-term home care support</li>
+            <li>Family communication and coordination</li>
+          </ul>
+          <a class="link" href="services.html">See services</a>
         </div>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 HODE Senior Care | Hope • Outreach • Dignity • Empowerment</p>
-    </footer>
+    <section class="section">
+      <div class="container">
+        <h2>What you can expect</h2>
+        <div class="grid-4">
+          <div class="card">
+            <h3>Respect</h3>
+            <p>We treat every person with dignity and care.</p>
+          </div>
+          <div class="card">
+            <h3>Clarity</h3>
+            <p>You get clear communication and next steps.</p>
+          </div>
+          <div class="card">
+            <h3>Consistency</h3>
+            <p>We support routines that help home life run smoother.</p>
+          </div>
+          <div class="card">
+            <h3>Safety</h3>
+            <p>We focus on safe support at home and comfort.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container two-col">
+        <div>
+          <h2>Care shaped by lived experience</h2>
+          <p>
+            HODE was founded by two sisters, Tigist and Blen.
+            The name comes from a family word meaning “from my core” or “from my heart.”
+            That meaning guides every service we provide.
+          </p>
+          <a class="btn" href="about.html">Meet the founders</a>
+        </div>
+        <div class="card">
+          <h3>Ready to talk?</h3>
+          <p>Tell us what support you need. We will respond with next steps.</p>
+          <a class="btn primary" href="contact.html">Send a message</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-title">HODE</div>
+        <div class="footer-sub">Hope • Outreach • Dignity • Empowerment</div>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
