@@ -3,161 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HODE | DNP-Led Professional Senior Home Care Ohio</title>
-    <style>
-        :root {
-            --primary-rust: #b35a44; 
-            --secondary-teal: #4a7c7d; 
-            --warm-bg: #fdf5e6; 
-            --white: #ffffff;
-            --dark-text: #2d1e1b;
-        }
-
-        html { scroll-behavior: smooth; }
-
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4; 
-            color: var(--dark-text);
-        }
-
-        .website-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: var(--white);
-            box-shadow: 0 0 40px rgba(0,0,0,0.1);
-        }
-
-        /* NAVIGATION */
-        header {
-            padding: 20px 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #eee;
-            background: white;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .logo-text { font-weight: bold; font-size: 1.8rem; color: var(--primary-rust); text-decoration: none; }
-        nav a { margin-left: 20px; text-decoration: none; color: var(--dark-text); font-weight: 600; font-size: 0.95rem; transition: 0.3s; }
-        nav a:hover { color: var(--secondary-teal); }
-        .btn-call { background: var(--primary-rust); color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; }
-
-        .trust-bar {
-            background: var(--secondary-teal);
-            color: white;
-            padding: 12px;
-            text-align: center;
-            font-weight: bold;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* HERO - Professional African American Nurse Practitioner Image */
-        .hero {
-            display: flex;
-            align-items: center;
-            padding: 80px 5%;
-            background-color: var(--white);
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-        .hero-text { flex: 1.2; min-width: 300px; }
-        .hero-img-box { 
-            flex: 1; 
-            min-width: 300px;
-            height: 500px; 
-            /* High-trust image: Professional Black Nurse with Senior Patient */
-            background: url('https://images.unsplash.com/photo-1579152276502-54243b884b04?auto=format&fit=crop&w=1000&q=80');
-            background-size: cover;
-            background-position: center;
-            border-radius: 20px;
-            box-shadow: 20px 20px 0px var(--warm-bg);
-        }
-
-        /* CONTENT SECTIONS */
-        .content-section { padding: 80px 5%; }
-        #faq { background-color: var(--warm-bg); }
-        
-        .faq-container { max-width: 900px; margin: auto; }
-        .faq-item { margin-bottom: 15px; text-align: left; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.03); }
-        .faq-question { font-weight: bold; color: var(--secondary-teal); font-size: 1.15rem; margin-bottom: 10px; display: block; }
-        .faq-answer { line-height: 1.7; color: #444; }
-
-        /* FOOTER */
-        footer { padding: 60px 5%; text-align: center; background: #2d1e1b; color: white; }
-    </style>
+    <title>HODE | Professional Senior Care Ohio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="website-container">
     <header>
-        <a href="#" class="logo-text">HODE</a>
+        <div class="logo">HODE</div>
         <nav>
-            <a href="#story">Our Story</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#faq">FAQs</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">Our Story</a>
+            <a href="faq.html">FAQs</a>
         </nav>
+        <a href="tel:1234567890" class="btn-nav">Call Us</a>
     </header>
 
-    <div class="trust-bar">
-        Led by a Doctor of Nursing Practice (DNP) & MBA — Providing Clinical Excellence with a Family Heart
-    </div>
+    <div class="trust-bar">DNP & MBA LED CLINICAL OVERSIGHT</div>
 
     <section class="hero">
-        <div class="hero-text">
-            <h1 style="color: var(--secondary-teal); font-size: 3rem; line-height: 1.1;">Care from the Core of Our Family to Yours.</h1>
-            <p style="font-size: 1.25rem; margin: 25px 0; color: #555;">HODE provides elite senior home care in Ohio. Founded by sisters—a DNP-prepared Nurse Practitioner and a dedicated advocate—we treat your family with the dignity they deserve.</p>
-            <a href="#contact" class="btn-call" style="padding: 18px 40px; border-radius: 50px; display: inline-block;">Schedule Your Free Consultation</a>
+        <div class="hero-content">
+            <h1>Care from the Core of Our Family to Yours.</h1>
+            <p>Expert senior home care in Ohio, managed with a daughter’s heart and a Doctor of Nursing Practice’s precision.</p>
+            <a href="about.html" class="btn-main">Learn More</a>
         </div>
-        <div class="hero-img-box"></div>
-    </section>
-
-    <section id="story" class="content-section">
-        <div style="max-width: 850px; margin: auto; text-align: center;">
-            <h2 style="color: var(--primary-rust); font-size: 2.2rem;">The HODE Legacy</h2>
-            <p style="font-size: 1.1rem;">In our family, "Hode" means <strong>"from my core."</strong> We honors our late mother's dream by providing a higher standard of care. With a Doctor of Nursing Practice (DNP) overseeing every care plan, we bridge the gap between complex medical management and the warmth of home support.</p>
+        <div class="hero-image">
+            <img src="https://plus.unsplash.com/premium_photo-1663045261358-0051e29e9657?q=80&w=1000&auto=format&fit=crop" alt="African American Nurse with Senior">
         </div>
     </section>
 
-    <section id="faq" class="content-section">
-        <div class="faq-container">
-            <h2 style="text-align: center; color: var(--secondary-teal); margin-bottom: 50px; font-size: 2.2rem;">Senior Home Care FAQs</h2>
-            
-            <div class="faq-item">
-                <span class="faq-question">What does "DNP-led care" mean for my family?</span>
-                <div class="faq-answer">It means your loved one’s care is overseen by a Doctor of Nursing Practice. This provides a higher level of clinical expertise, allowing us to better manage complex health conditions and coordinate with primary doctors more effectively than standard agencies.</div>
-            </div>
-
-            <div class="faq-item">
-                <span class="faq-question">Do you offer 24/7 care or just hourly visits?</span>
-                <div class="faq-answer">HODE provides flexible care options tailored to your needs. Whether you require a few hours of companionship a week or comprehensive 24/7 support, we build a plan that fits your family's schedule and budget.</div>
-            </div>
-
-            <div class="faq-item">
-                <span class="faq-question">How do you select your caregivers?</span>
-                <div class="faq-answer">We select caregivers who share our core values of Hope, Outreach, Dignity, and Empowerment. Every caregiver undergoes rigorous background checks and is personally trained to meet our high clinical and empathetic standards.</div>
-            </div>
-
-            <div class="faq-item">
-                <span class="faq-question">Is home care covered by insurance in Ohio?</span>
-                <div class="faq-answer">Home care coverage varies depending on your specific plan and the level of care required. During our free consultation, we can help you review your options and provide guidance on private pay or insurance navigation.</div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <h2 style="font-size: 2rem;">Serving Ohio Families with Dignity</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 40px;">Ready to discuss a care plan? We are here to listen and lead with heart.</p>
-        <p style="opacity: 0.8;">Hope | Outreach | Dignity | Empowerment</p>
-        <p style="font-size: 0.8rem; margin-top: 50px; opacity: 0.5;">© 2026 HODE Senior Care. All Rights Reserved.</p>
+    <footer>
+        <p>&copy; 2026 HODE Senior Care | Serving Ohio with Dignity</p>
     </footer>
-</div>
-
 </body>
 </html>
