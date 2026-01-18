@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HODE | Contact</title>
+  <meta name="description" content="Contact HODE for home care support and consultations." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="HODE Home">
+        <img class="logo" src="assets/logo.jpg" alt="HODE logo" />
+        <div class="brand-text">
+          <div class="brand-name">HODE</div>
+          <div class="brand-tag">Hope • Outreach • Dignity • Empowerment</div>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Tell us what you need. We will respond with next steps.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-col">
+        <div class="card">
+          <h2>Send a message</h2>
+
+          <form class="form" action="https://formspree.io/f/yourFormId" method="POST">
+            <label>
+              Full name
+              <input name="name" type="text" required />
+            </label>
+
+            <label>
+              Phone number
+              <input name="phone" type="tel" />
+            </label>
+
+            <label>
+              Email
+              <input name="email" type="email" required />
+            </label>
+
+            <label>
+              City or Zip code
+              <input name="location" type="text" />
+            </label>
+
+            <label>
+              How can we help you
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <button class="btn primary" type="submit">Send Message</button>
+
+            <p class="tiny">
+              Replace the Formspree link with your real form endpoint.
+            </p>
+          </form>
+        </div>
+
+        <div>
+          <div class="card" id="call">
+            <h2>Call</h2>
+            <p>Add your phone number in this section.</p>
+            <p class="contact-line"><span>Phone</span> <a href="tel:+11234567890">(123) 456-7890</a></p>
+            <p class="contact-line"><span>Email</span> <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></p>
+            <p class="contact-line"><span>Service area</span> Your city and nearby areas</p>
+          </div>
+
+          <div class="callout">
+            <h3>What happens next</h3>
+            <ul class="bullets">
+              <li>You share your needs</li>
+              <li>We respond with next steps</li>
+              <li>We schedule a consultation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-title">HODE</div>
+        <div class="footer-sub">Hope • Outreach • Dignity • Empowerment</div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="who-we-serve.html">Who We Serve</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
