@@ -126,6 +126,29 @@ a{color:inherit;text-decoration:none}
   gap:20px;
   align-items:center;
 }
+.trust-bar{
+  background: #FAF1E4;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 22px 0;
+}
+
+.trust-bar-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.trust-bar .trust-item{
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  font-weight: 600;
+  color: var(--text);
+  font-size: 14px;
+}
 
 .hero h1{
   font-size:42px;
@@ -321,4 +344,5 @@ input,textarea{
   }
   .site-nav.open{display:flex}
 }
+
 
